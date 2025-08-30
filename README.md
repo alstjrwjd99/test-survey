@@ -9,7 +9,7 @@
 - Answer (id, UserSubmit(FK), Question (FK), Choice(FK), text, ... )
 - Choice (id, Question (FK), text, order, ...)
 
-<img width="4992" height="1760" alt="image" src="https://github.com/user-attachments/assets/17f5c8f8-ee81-4e03-8695-e9e8609b4bbd" />
+<img width="5168" height="1760" alt="image" src="https://github.com/user-attachments/assets/32ba6d63-b3d8-4d3a-84f0-17ccbf1c6326" />
 
 ### 설명
 1. 한 명의 유저는 여러 설문조사를 제출할 수 있으며, 하나의 설문조사에는 여러 유저가 응답할 수 있습니다. UserSubmit 테이블은 이 관계를 연결합니다.
