@@ -24,9 +24,9 @@ class QuestionAdmin(admin.ModelAdmin):
 
 @admin.register(Choice)
 class ChoiceAdmin(admin.ModelAdmin):
-    list_display = ('choice_text', 'question', 'is_correct')
+    list_display = ('text', 'question')
     list_filter = ('question',)
-    search_fields = ('choice_text',)
+    search_fields = ('text',)
 
 
 @admin.register(Answer)
